@@ -67,27 +67,10 @@ const SideBar = () => {
       <div className='nav__bottom'>
         <DarkMode open={open} />
         <div className='nav'>
-          <a
-            href='https://www.buymeacoffee.com/eyuel'
-            rel='noreferrer'
-            target='_blank'
-            className='nav__item'>
-            <div className='nav__icons'>
-              <MdOutlineCoffee />
-            </div>
-          </a>
+          
         </div>
         <div className='nav'>
-          <a
-            rel='noreferrer'
-            target='_blank'
-            href='https://github.com/EyuCoder/chatgpt-clone'
-            className='nav__item'>
-            <div className='nav__icons'>
-              <AiOutlineGithub />
-            </div>
           
-          </a>
         </div>
         <div onClick={() => setModalOpen(true)} className='nav'>
           <span htmlFor='setting-modal' className='nav__item'>
